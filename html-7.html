@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <style>
+       
+        /*Flex box -> either row or columns*/
+        #maindiv{
+            display: flex;
+            flex-direction: row;
+            padding: 20px;
+            background-color: antiquewhite;
+            margin: 20px;
+            border-radius: 20px;
+        }
+        #maindiv >div{
+            background-image: linear-gradient(120deg,red,yellow,black,purple);
+            margin: 20px;
+            border-radius: 20px;
+            color: white;
+            padding: 20px;
+            font-size: 25px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        #Header{
+            top:0px;
+            position: fixed;
+            left: 0px;
+            width: 100%;
+            background-color: teal;
+            color: antiquewhite;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+
+        }
+        body{
+            padding-top: 180px;
+        }
+        #footer{
+            bottom: 0px;
+            position: fixed;
+            left: 0px;
+            width: 100%;
+            background-color: orange;
+            color: blanchedalmond;
+            height: 40px;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <!--grid box is a combinations of rows and columns-->
+    <div id="maindiv">
+        <div id="a" align = "center">view the data</div>
+        <div id="b">About us</div>
+        <div id="c">contact us</div>
+        <div id="d">work done</div>
+        <div id="e">status</div>
+
+    </div>
+  
+        <h1 id="Header">WELCOME TO MY PAGE</h1>
+        <h4 id="Footer">Thank you</h4>
+ 
+    
+</body>
+</html>
